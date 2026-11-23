@@ -1,5 +1,11 @@
 # The World Report — 22 November 2026
 
+[![make.fun · news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![rank](https://make.fun/badge/news-image-20261122/arkhindi12/makefun-world-report-1122/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/arkhindi12/makefun-world-report-1122/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+
+Entered in make.fun's [Sum up 22 November's world news in one image](https://make.fun/bounty/news-image-20261122) bounty.
+
 One image that sums up Sunday 22 November 2026's world news, drawn as a broadsheet front
 page at 1024x1024.
 
