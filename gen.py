@@ -256,10 +256,13 @@ def _panels(img, d, fonts):
             _para(d, (x + 54, img_y + 12), _fit(d, headline, bold15, 250, 3), bold15, INK, 15)
     for c in range(3):
         region, headline, key = PANELS[6 + c]
+        # 186px columns across the left area; the vignette and its two text lines sit
+        # between the second panel row and the footer, clear of the map panel on the right.
         x = MARGIN + c * 203
-        _illo(img, (x, 630 + OFF["wide_dy"], x + 188, 670 + OFF["wide_dy"]), key, 300 + c)
-        d.text((x, 678 + OFF["wide_dy"]), region, font=bold10, fill=RED)
-        _para(d, (x, 694 + OFF["wide_dy"]), _fit(d, headline, bold12, 185, 3), bold12, INK, 13)
+        vy = 612 + OFF["wide_dy"]
+        _illo(img, (x, vy, x + 188, vy + 58), key, 300 + c)
+        d.text((x, vy + 64), region, font=bold10, fill=RED)
+        _para(d, (x, vy + 78), _fit(d, headline, bold12, 185, 3), bold12, INK, 13)
 
 
 def _map(d, fonts):
